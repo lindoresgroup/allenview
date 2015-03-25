@@ -1,0 +1,53 @@
+.up { text-transform: uppercase;}
+.subtle {color: #999}
+
+.noMarg {
+  margin: 0;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.col-wht { color: #fff}
+.white-bg {background-color: #fff; }
+
+.navbar-nav > li > a {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #506A85;
+  padding: 24px 20px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-bottom: none;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  bottom: -1px;
+  z-index: 1;
+}
+
+.free-quote-btn {
+  margin-right: 20px;
+}
+
+.social a .icon-s-instagram:after {
+    background: #3B5998;
+    background: #517fa4;
+}
+
+.tint-bg,
+.tint-bg.img-bg-soft:before,
+.tint-bg.img-bg-softer:before,
+.tooltip-inner {
+  background-color: #111; /* #74cf19 */
+}
+
+@media (max-height: 1024px) and (min-width: 768px)
+.height-xs, .height-sm, #owl-main .item {
+  height: 400px;
+  }
