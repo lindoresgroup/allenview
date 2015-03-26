@@ -1,0 +1,37 @@
+fieldset {
+	border: 1px solid #679F1B;
+	padding: 5px 20px 14px 20px;
+	margin: 3px 0px 20px 0px;
+}
+legend {
+	margin-left: -10px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #679F1B;
+	padding: 3px 7px 3px 7px;
+	font-size: 18px;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+}
+legend span {
+	font-weight: normal;
+}
+fieldset p { margin: 0.6em 0; }
+fieldset label { float:left; width: 30%; font-weight: bold; }
+fieldset label span {
+	color: #B9B995;
+	font-weight: normal;
+}
+fieldset .smTxt { font-size: 0.8em; color: #666; }
+fieldset input { width: 300px; border: solid 1px #c7c7c7; padding: 2px; color: #494949; }
+fieldset .top { margin: 1.4em 0 0.6em 0; }
+fieldset input:focus { background: #fff; border: solid 1px #679F1B; }
+fieldset textarea:focus { background: #fff; border: solid 1px #679F1B; }
+
+.commentBox { font-family: Arial, Helvetica, sans-serif; width: 300px; font-size: 13px; height: 100px; border: solid 1px #c7c7c7;  }
+
+
+#addB { margin-top: 20px; }
+.submitB { float: right; }
+
+.hide { display: none; }
+.show { display: block; }

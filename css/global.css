@@ -1,0 +1,219 @@
+/* GLOBAL STYLES *****************************************************/
+
+
+
+
+/* Global Reset From Yahoo *****************************************************/
+
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+			margin:0;
+			padding:0;
+		}
+		table {
+			border-collapse:collapse;
+			border-spacing:0;
+		}
+		fieldset,img { 
+			border:0;
+		}
+		address,caption,cite,code,dfn,em,strong,th,var {
+			font-style:normal;
+			font-weight:normal;
+		}
+		ol,ul {
+			list-style:none;
+		}
+		caption,th {
+			text-align:left;
+		}
+		h1,h2,h3,h4,h5,h6 {
+			font-size:100%;
+			font-weight:normal;
+		}
+		q:before,q:after {
+			content:'';
+		}
+		abbr,acronym { border:0;
+		}
+
+/* General Display and Body *****************************************************/
+
+		body {
+			margin:0 auto;
+			padding:0;
+			background-color: #221e1f;
+			background-image: url("../images/allenview_bg.jpg");
+			background-repeat: repeat-x;
+			background-position: center top;
+			text-align: center;
+		}
+		#container {
+			width: 1000px;
+			margin: 0 auto;
+			background-color: #ffffff;
+			position: relative;
+			text-align: left;
+				}
+		
+		#header {
+			background-color: #fff;
+			height: 201px;
+width: 1000px;
+				}
+		#contentholder {
+	FLOAT: left;
+	WIDTH: 990px;
+	margin: 0px;
+	margin: 5px;
+	background-color: #fff;
+	background-repeat: repeat-y;
+	background-position: right top;
+	position: relative;
+		}
+		#leaf{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			z-index: 101;			
+		}
+		
+		#banner {
+	FLOAT: left;
+	WIDTH: 990px;
+	margin: 0px;
+	padding: 0px;
+	height:375px;
+		}
+		#wrapper_two_col{
+			background-image: url("../images/bg_two.jpg");
+			background-repeat: repeat-y;
+			background-position: left top;
+			float: left;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+		#content {
+			FLOAT: left;
+			WIDTH: 500px;
+			margin: 0px;
+			padding: 0px;
+			margin-left: 25px;
+			margin-right: 40px;
+		}
+		#content1 {
+			FLOAT: left;
+			WIDTH: 940px;
+			margin: 0px;
+			padding: 0px;
+			margin-left: 25px;
+			margin-right: 25px;
+			margin-bottom: 25px;
+		}
+		#content2 {
+			float: left;
+			margin: 0px;
+			width: 375px;
+			text-align: left;
+			display: block;
+			padding: 0px;
+			margin-left: 25px;
+			margin-right: 25px;
+			}
+		#content1 img{
+			border: 3px solid #221e1f;
+		}
+		#gallery img{
+			border: 3px solid #221e1f;
+			margin-right: 15px;
+			margin-top: 15px;
+		}
+		#gallery_home img{
+			border: 3px solid #221e1f;
+			margin-right: 15px;
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+/* Footer Styles *****************************************************/
+
+		#footer {
+			clear: both;
+			margin: 0px;
+			height: 20px;
+			padding-top: 10px;
+			padding-right: 10px;
+			padding-bottom: 10px;
+			padding-left: 10px;
+			background-color: #221e1f;
+		}	
+		#footer p {
+			color: #FFFFFF;
+		
+		}
+		#footer p a {
+			color: #FFFFFF;
+			font-weight: bold;
+			padding: 0px;
+			border-top-style: none;
+			border-right-style: none;
+			border-bottom-style: none;
+			border-left-style: none;
+			text-decoration: none;
+		}
+		#footer p a:hover {
+			color: #FFFFFF;
+			text-decoration: underline;
+		}
+		
+
+
+/* Logo *****************************************************/
+		
+		
+		#logo {
+			width: 347px;
+			margin-left: 0px;
+			line-height: 90px;
+			color: #fff;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 3em;
+			height: 122px;
+			float: left;
+		}
+
+/* Floats *****************************************************/
+
+
+		.left {
+			float:left;}
+			
+		.right {
+			float:right;}
+		
+		.cleaner {
+			clear:both;
+			height:0px;
+			font-size:0px;}
+
+/* Newsletter Box *****************************************************/
+
+		#newsletter .field {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:100%;
+			border-bottom:1px solid #EBEAE4;
+			border-right:1px solid #EBEAE4;
+			border-left:1px solid #D4D4CF;
+			border-top:1px solid #D4D4CF;
+			color:#929292;
+			height:18px;
+			width:188px;
+			padding:6px 5px 4px 5px;
+			background-position: left top;
+}
+			
+		#newsletter .left {
+			width:192px;}
+			
+		#newsletter p {
+			margin:0px 0px 16px 0px}
+			
+/* End (c) 2008 e-CBD *****************************************************/
