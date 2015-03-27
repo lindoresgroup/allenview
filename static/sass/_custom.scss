@@ -1,0 +1,35 @@
+.avGreen, a.avGreen,
+.colour {color: $avGreen;}
+.bgColour {background-color: $avGreen;}
+.blk {color: $blk}
+.nude, .nude a:link, .nude a:hover, span.nude.gry, a span.nude.gry {text-decoration: none;}
+.gry {color: #777}
+.button {
+
+  &.colour {
+    background-color: $avGreen;
+    color: $color-accent2-fg-bold !important;
+  }
+}
+ul.inline {padding-left: 0;}
+
+.inline li {
+  list-style-type: none; display: inline-block;
+}
+//.gallery img {width: 100%}
+
+.box {
+  padding: 1em 3em 3em
+}
+
+#main {
+  padding: 0em 0 0em;
+}
+
+#main > header {
+  margin: 0 0 2em 0;
+}
+
+.noBull {
+  list-style-type: none
+}

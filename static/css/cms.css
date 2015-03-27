@@ -1,0 +1,17 @@
+.wh-updates {
+  display: none;
+}
+
+.wh-logo {
+  background-image:url('/static/images/logo.png');
+  background-size: contain;
+  height: 60px;
+  background-color: transparent;
+  width: auto;
+  border-radius: 0;
+}
+
+#customCms ul.wh-lang-select,
+#customCms p.wy-text-center.wy-text-small {
+  display: none;
+}
