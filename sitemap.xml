@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
+        <loc>/404.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/about/index.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -11,7 +16,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/contact/index.html</loc>
+        <loc>/contact-us/index.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -42,6 +47,11 @@
     </url>
     <url>
         <loc>/thank-you/index.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/turf-suppliers/index.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
