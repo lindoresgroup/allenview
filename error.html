@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
 
-  	<title>Contact</title>
+  	<title></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
@@ -119,127 +119,50 @@
 
     
 
-  <section id="map" class="height-sm"></section>
+  <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+  <script type="text/javascript" charset="utf-8">
+  	$(document).ready(function() {
+
+  		// Add the missing url to the text
+  		$("#url").text(window.location.pathname);
+
+  		// Fix the css locations dynamically
+  		$("head link").each(function() {
+  			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
+  				$(this).attr("href", "../" + $(this).attr("href"));
+  		});
+
+  	})
+  </script>
+
   <section id="contact-form">
   <div class="container inner">
 
     <div class="row">
       <div class="col-md-8 col-sm-9 center-block text-center animated" style="opacity: 1;">
         <header>
-          <h1>Contact Us</h1>
-          <p>At Allenview we care as much about your grass as you do. We supply you the best turf at the best price with the best advice. At Allenview, we have you covered.</p>
+          <h1>Whoops!</h1>
+          <p>
+            This page <!--b id="url"></b--> could not be found. <br><br>
+
+
+            <form id="404form" class="forms" method="POST" action="//formspree.io/allenview@lindores.co">
+
+              <input type="hidden" name="_404ing" value="" />
+              <input type="hidden" name="_next" value="/" />
+              <input type="text" name="_gotcha" style="display:none" />
+
+              <button type="submit" value="Send" class="btn btn-default btn-submit">Click here to fix this problem.</button>
+            </form>
+          </p>
         </header>
       </div><!-- /.col -->
     </div><!-- /.row -->
 
-    <div class="row">
-      <div class="col-sm-12 animated" style="opacity: 1;">
-        <div class="row">
-
-          <div class="col-sm-6 outer-top-md inner-right-sm animated" style="opacity: 1;">
-
-            <h2>Send An Email</h2>
-            <p><i>Fill the sections below and then click the button below.</i></p>
-
-            <!--form accept-charset="UTF-8" action="https://formkeep.com/f/8c2f320b336d" method="POST">
-              <input type="hidden" name="utf8" value="✓">
-
-              <div class="row">
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="text" name="firstname" class="form-control" placeholder="First Name (Required)">
-                </div>
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="text" name="surnname" class="form-control" placeholder="Surname (Required)">
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="email" name="email" class="form-control" placeholder="Email (Required)">
-                </div>
-
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="text" name="phone" class="form-control" placeholder="Phone Number (Required)">
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-12 animated" style="opacity: 1;">
-                  <textarea name="message" class="form-control" placeholder="Enter your message ..."></textarea>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-default btn-submit">Send Message</button>
-            </form-->
-
-            <form id="contactform" class="forms" method="POST" action="//formspree.io/allenview@lindores.co">
-
-              <div class="row">
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="text" name="firstname" class="form-control" placeholder="First Name (Required)">
-                </div>
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="text" name="surnname" class="form-control" placeholder="Surname (Required)">
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="email" name="email" class="form-control" placeholder="Email (Required)">
-                </div>
-
-                <div class="col-sm-6 animated" style="opacity: 1;">
-                  <input type="text" name="phone" class="form-control" placeholder="Phone Number (Required)">
-                </div>
-              </div>
-
-              <input type="hidden" name="_subject" value="Contact Form" />
-              <input type="hidden" name="_next" value="/thank-you" />
-              <input type="text" name="_gotcha" style="display:none" />
-
-              <div class="row">
-                <div class="col-sm-12 animated" style="opacity: 1;">
-                  <textarea name="message" class="form-control" placeholder="Enter your message ..."></textarea>
-                </div>
-              </div>
-
-              <button type="submit" value="Send" class="btn btn-default btn-submit">Send Message</button>
-            </form>
-
-            <div id="response"></div>
-
-          </div><!-- ./col -->
-
-          <div class="col-sm-6 outer-top-md inner-left-sm border-left animated" style="opacity: 1;">
-
-            <h2>Contact Us</h2>
-            <p>We're available by phone, email, and on all the social medias.</p>
-
-            <h3>Allenview Turf</h3>
-            <ul class="contacts">
-              <li><i class="icon-mobile contact"></i> 0408 317 144</li>
-              <li><a href="justin@allenviewturf.com.au"><i class="icon-mail-1 contact"></i> justin@allenviewturf.com.au</a></li>
-              <li><i class="icon-location contact"></i> 286 Brookland Road, Allenview, QLD, 4285</li>
-            </ul><!-- /.contacts -->
-
-            <div class="social-network">
-              <h3>Social Media</h3>
-              <ul class="social">
-                <li><a href=""><i class="icon-s-twitter"></i></a></li>
-                <li><a href=""><i class="icon-s-instagram"></i></a></li>
-                <li><a href=""><i class="icon-s-gplus"></i></a></li>
-              </ul><!-- /.social -->
-            </div><!-- /.social-network -->
-
-          </div><!-- /.col -->
-
-        </div><!-- /.row -->
-      </div><!-- /.col -->
-    </div><!-- /.row -->
 
   </div><!-- /.container -->
 </section>
-
 
 
 

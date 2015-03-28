@@ -737,7 +737,8 @@ $(document).ready(function () {
 
 $(document).ready(function() {
 
-	$('#contactform, #commentform').validate({
+	/*
+  $('#contactform, #commentform').validate({
 
 		errorPlacement: function(error, element) {
 			$(element).attr({
@@ -790,5 +791,6 @@ $(document).ready(function() {
 		}
 
 	});
+*/
 
 });
